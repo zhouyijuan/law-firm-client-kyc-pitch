@@ -1,0 +1,20 @@
+{
+  "name": "law-firm-client-kyc-pitch",
+  "interface": {
+    "displayName": "律所 Client KYC Pitch"
+  },
+  "plugins": [
+    {
+      "name": "law-firm-client-kyc-pitch",
+      "source": {
+        "source": "local",
+        "path": "./plugins/law-firm-client-kyc-pitch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

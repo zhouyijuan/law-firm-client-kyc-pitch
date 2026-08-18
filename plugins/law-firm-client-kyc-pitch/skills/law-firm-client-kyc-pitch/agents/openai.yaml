@@ -1,0 +1,8 @@
+interface:
+  display_name: "律所 Client KYC Pitch"
+  short_description: "主动核验法规资质、集团IP与三市场上市参照"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  default_prompt: "使用 $law-firm-client-kyc-pitch 研究目标公司，核验法规与资质，建立控股及并表主体全集，完成集团IP扫描，并按A股、港股、美股各不少于3家上市参照生成固定八章报告。"
+policy:
+  allow_implicit_invocation: true
